@@ -208,7 +208,7 @@
 
   <!-- Hero Section -->
   <div class="hero-section">
-    <video autoplay muted loop class="hero-video">
+    <video autoplay muted loop playsinline class="hero-video">
       <source src="./vid/3141210-uhd_3840_2160_25fps.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -359,7 +359,7 @@
   <!-- Initialize AOS -->
   <script>
     AOS.init({
-      offset: 200,
+      offset: 300,
       duration: 1000,
       once: true
     });
@@ -369,7 +369,7 @@
       let counter = document.getElementById('member-counter');
       let count = 0;
       let target = 50;
-      let speed = 20;
+      let speed = 5;
 
       function updateCounter() {
         if (count < target) {
