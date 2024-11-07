@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Getting Started with Contributing to the Data Science Club Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Fork and Clone the Repository
 
-## Available Scripts
+1. **Fork the Repository**: Go to the GitHub repository in the organization and click the **Fork** button to create a copy under your account.
 
-In the project directory, you can run:
+2. **Clone the Fork**: Open your terminal and navigate to your desired folder. Clone the repo using SSH (recommended) or HTTPS:
 
-### `npm start`
+   **SSH**:
+   ```bash
+   git clone git@github.com:YorkU-DataScienceClub/dsc-website.git
+   ```
+   **HTTPS**:
+   ```bash
+   git clone https://github.com/YorkU-DataScienceClub/dsc-website.git
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Navigate to the Project Folder**:
+   ```bash
+   cd dsc-website
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install Dependencies
 
-### `npm test`
+Run the following command to install the necessary dependencies:
+```bash
+npm install
+```
+This will install all dependencies listed in `package.json`, such as `react`, `bootstrap`, and `aos`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Create a Branch
 
-### `npm run build`
+Create a new branch using your name to make it easy to track contributions:
+```bash
+git checkout -b your-own-branch-name
+```
+For example:
+```bash
+git checkout -b Ashraf-feature
+```
+Replace `Ashraf-feature` with a descriptive name for your branch.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start Coding
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make the necessary changes or additions in the codebase. If you're working on a specific feature like the chatbot, create a new file and integrate it with `App.js`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Commit and Push Changes
 
-### `npm run eject`
+1. **Add Changes**:
+   ```bash
+   git add .
+   ```
+2. **Commit with a Descriptive Message**:
+   ```bash
+   git commit -m "Added chatbot component and integrated it"
+   ```
+3. **Push to Your Branch**:
+   ```bash
+   git push origin your-own-branch-name
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Create a Pull Request (PR)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Go to your forked repository on GitHub.
+2. Click on **Compare & pull request** to initiate a PR.
+3. Add a brief description and click **Create pull request**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Review and Merge
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Once a PR is submitted, it will be reviewed by other team members.
+- After approval, it will be merged into the main branch.
 
-## Learn More
+### Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Mohammed Ashraful Islam** - Initial developer and project lead.
+- **Current Tech Leads**: As tech leads contribute, their names and roles will be added here.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Examples:
+  - **Jamie Lee** - Front-end design.
+  - **Jordan Smith** - Back-end development.
 
-### Code Splitting
+### Please feel free to reach out if you have any questions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
